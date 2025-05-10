@@ -1,8 +1,8 @@
 <?php
 // Mail hesap bilgileri
 $mailhost = '{cp64.servername.co:993/imap/ssl}INBOX';
-$mailuser = 'api1@bistsinyal.com.tr'; // Mail kullanıcı adı
-$mailpass = '%VG5krA&2?7e'; // Bu alanı siz doldurmalısınız
+$mailuser = 'axxxxx'; // Mail kullanıcı adı
+$mailpass = 'xxxxx'; // Bu alanı siz doldurmalısınız
 
 // Bağlantı kur
 $inbox = @imap_open($mailhost, $mailuser, $mailpass);
